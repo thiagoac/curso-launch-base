@@ -40,5 +40,3 @@ console.log(alunosNovos[1])
 console.log(alunos[0].nome)
 console.log(alunos[1].nome)
 console.log(alunos[2].nome)
-
-// Crie um programa com um objeto para armazenar dados de um programador como nome, idade e tecnologias que trabalha.

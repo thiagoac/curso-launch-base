@@ -14,5 +14,5 @@ const alunos = [
 ]
 
 for(let i = 0; i < alunos.length; i++){
-    console.log(alunos[i].nome)
+    console.log(alunos[i].nome, alunos[i].nota)
 }
