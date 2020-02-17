@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #282a36;
+}
+
+header{
+    background: royalblue;
+    padding: 35px;
+}
+
+header nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+

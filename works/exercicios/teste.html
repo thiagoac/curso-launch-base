@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+.left-diagonal {
+z-index: 1;
+padding-top: 0px;
+background: red;}
+ 
+.left-diagonal::before {
+position: absolute;
+content: '';
+pointer-events: none;
+z-index: -1;
+width: 150%;
+height: 50%;
+background: inherit;
+transform: rotate(6deg);
+transform-origin: -3% 0;}
+    
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <section class="left-diagonal">
+        
+    </section>
+</body>
+</html>
