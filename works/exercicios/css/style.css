@@ -6,11 +6,13 @@
 
 body{
     background: #282a36;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header{
-    background: royalblue;
-    padding: 35px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    border-bottom: 1px solid #333;
 }
 
 header nav{
@@ -28,6 +30,15 @@ nav ul li{
 nav a{
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+}
+
+nav a:hover{
+    color: #50fa7b;
+    transition: color 200ms;
+
 }
 
 
